@@ -23,7 +23,7 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Diabetes Prediction System',
                           
                           ['Diabetes Prediction'],
                           icons=['activity'],
@@ -34,7 +34,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.title('Diabetes Prediction using ML')
+    st.title('Machine Learning Prediksi Diabetes')
     
     
     # getting the input data from the user
