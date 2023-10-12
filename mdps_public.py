@@ -34,7 +34,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.title('Machine Learning Prediksi Diabetes')
+    st.title('Machine Learning Prediksi Diabetes By Mfiim')
     
     
     # getting the input data from the user
@@ -44,10 +44,10 @@ if (selected == 'Diabetes Prediction'):
         Pregnancies = st.text_input('Number of Pregnancies')
         
     with col2:
-        Glucose = st.text_input('Glucose Level')
+        Glucose = st.text_input('Level Glukosa')
     
     with col3:
-        BloodPressure = st.text_input('Blood Pressure value')
+        BloodPressure = st.text_input('Tekanan Darah')
     
     with col1:
         SkinThickness = st.text_input('Skin Thickness value')
