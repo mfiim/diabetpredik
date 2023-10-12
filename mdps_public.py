@@ -35,7 +35,7 @@ if (selected == 'Diabetes Prediction'):
     
     # page title
     st.title('Machine Learning Prediksi Diabetes By Mfiim')
-    <h5> '0 = tidak'
+    
     
     
     # getting the input data from the user
